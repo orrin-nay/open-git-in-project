@@ -2,7 +2,7 @@
   "name": "open-git-in-project",
   "main": "./lib/open-git-in-project",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "open git in working directory with ctrl+alt+g",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "open-git-in-project:toggle"
