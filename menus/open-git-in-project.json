@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle open-git-in-project",
+        "command": "open-git-in-project:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "open-git-in-project",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "open-git-in-project:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
